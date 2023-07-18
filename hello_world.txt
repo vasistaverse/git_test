@@ -1,0 +1,96 @@
+# Registers
+
+FIFO_CTRL1 = 0x06
+FIFO_CTRL2 = 0x07
+FIFO_CTRL3 = 0x08
+FIFO_CTRL4 = 0x09
+FIFO_CTRL5 = 0x0A
+
+ORIENT_CFG_G = 0x0B
+
+# fifo interrupts
+INT1_CTRL = 0x0D
+INT2_CTRL = 0x0E
+
+WHO_AM_I  = 0x0F
+
+# accel and gyro config
+CTRL1_XL  = 0x10
+CTRL2_G   = 0x11
+CTRL3_C   = 0x12
+CTRL4_C   = 0x13
+CTRL5_C   = 0x14
+CTRL6_C   = 0x15
+CTRL7_G   = 0x16
+CTRL8_XL  = 0x17
+CTRL9_XL  = 0x18
+CTRL10_C  = 0x19
+
+MASTER_CONFIG = 0x1A
+WAKE_UP_SRC   = 0x1B
+TAP_SRC       = 0x1C  # Read only regsiter
+D6D_SRC       = 0X1D
+STATUS_REG    = 0x1E
+
+# data out 
+OUTX_L_G      = 0x22
+OUTX_H_G      = 0x23 
+OUTY_L_G      = 0x24
+OUTY_H_G      = 0x25
+OUTZ_L_G      = 0x26
+OUTZ_H_G      = 0x27
+OUTX_L_XL     = 0x28
+OUTX_H_XL     = 0x29
+OUTY_L_XL     = 0x2A
+OUTY_H_XL     = 0x2B
+OUTZ_L_XL     = 0x2C
+OUTZ_H_XL     = 0x2D
+
+# fifo data
+FIFO_DATA_OUT_L = 0x3E
+FIFO_DATA_OUT_H = 0x3F
+SENSORHUB1_REG  = 0x2E
+SENSORHUB2_REG  = 0x2F
+SENSORHUB3_REG  = 0x30
+SENSORHUB4_REG  = 0x31
+SENSORHUB5_REG  = 0x32
+SENSORHUB6_REG  = 0x33
+SENSORHUB7_REG  = 0x34
+SENSORHUB8_REG  = 0x35
+SENSORHUB9_REG  = 0x36
+SENSORHUB10_REG = 0x37
+SENSORHUB11_REG = 0x38
+SENSORHUB12_REG = 0x39
+
+# fifo status registers
+FIFO_STATUS1 = 0x3A
+FIFO_STATUS2 = 0x3B
+FIFO_STATUS3 = 0x3C
+FIFO_STATUS4 = 0x3D
+
+FUNC_SRC = 0x53
+
+# tap configuration
+TAP_CFG     = 0x58
+TAP_THS_6D  = 0x59
+INT_DUR2    = 0x5A
+WAKE_UP_THS = 0x5B
+
+# free fall
+WAKE_UP_DUR = 0x5C
+FREE_FALL   = 0x5D
+
+MD1_CFG     = 0x5E
+
+
+
+
+
+
+
+
+
+
+
+
+
